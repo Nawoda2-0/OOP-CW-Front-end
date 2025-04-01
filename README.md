@@ -1,6 +1,6 @@
 # 🚀Ticketing System-(Front-End)
 
-https://github.com/Nawoda2-0/OOP-CW-Front-end/blob/main/Screenshot%202024-12-12%20142047.png?raw=true
+![image alt](https://github.com/Nawoda2-0/OOP-CW-Front-end/blob/main/Screenshot%202024-12-12%20142047.png?raw=true)
 
 ## ➡️Overview
 The Real-Time Event Ticketing System is a robust application designed to simulate producer concumer pattern.This is a full-stack real-time ticketing app where multiple vendors
