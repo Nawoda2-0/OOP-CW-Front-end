@@ -1,0 +1,41 @@
+.graph{
+    background-color: #ffe4b3;
+    height: 50vh;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.graph:hover{
+    transform: scale(1.02); 
+    filter: brightness(1.01);
+}
+
+.consoleCard{
+    background-color: #282C34;
+}
+
+.graphRow{
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.realData{
+    font-size: 24px;
+    margin-bottom: -50px;
+    margin-top: 40px;
+    color: #515151;
+    font-weight: 600;
+}
+
+.graphTittle{
+    font-size: 16px;
+    color: rgb(39, 39, 39);
+}
+.spanTitle{
+    display: flex;
+    align-items: center;
+}
+
+/* <div style={{color : "#242424", fontSize : "16px"}}>Ticket Pool Size</div> */

@@ -1,0 +1,8 @@
+.app-body{
+    display: flex;
+    padding: 0 50px;
+}
+
+.content{
+    padding:  0 20px;
+}

@@ -1,0 +1,85 @@
+.home{
+    padding-top: 50px;
+    margin-left: 10px;
+    gap: 20px;
+    
+}
+
+.Citem{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+.Citem:hover{
+    transform: scale(1.05); 
+    filter: brightness(1.2);
+}
+
+.maxCard{
+    background-color: #7DA0FA;
+}
+
+.totalCard{
+    background-color: #7978E9;
+}
+
+.playCard{
+    background-color: #F3797E;
+}
+
+.maxContainer{
+    margin: 20px;
+}
+.con1{
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+.con2{
+    font-size: 2.5em;
+    color: white;
+    font-weight: 600;
+    margin-top: 6%;
+    text-align: left;
+}
+
+
+.con3{
+    height: 30%;
+    font-size: 1em;
+    color: white;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.conP2 img{
+    width: 100px;
+}
+
+.playCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    min-height: 150px;
+}
+.playCard:hover{
+    background-color: #db6367;
+}
+.playCard:active{
+    background-color: #e8878a;
+}
+
+.maxShared{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.soldCard{
+    font-size: 4em;
+    font-weight: 600;
+}

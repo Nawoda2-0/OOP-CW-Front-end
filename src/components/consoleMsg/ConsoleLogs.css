@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fira+Code:wght@300..700&family=Inconsolata:wght@200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&display=swap');
+
+.console-logs {
+    padding: 16px;
+    background-color: #282C34;
+    border-radius: 8px;
+    font-family: "Fira Code", monospace;
+    height: 90%;
+    width: 100%;
+  }
+  .console-logs h3{
+    margin-top: -10px;
+  }
+  
+  .logs-container {
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+    padding: 8px;
+    background-color: #282C34;
+    border-radius: 30px;
+    
+  }
+  
+  .log-entry {
+    font-size: 14px;
+    margin: 4px 0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500; 
+  }
+  
+
+  .waiting-log {
+    color: #FCD183 ; 
+  }
+  .vendor-log{
+    color: #5FADED ; 
+  }
+  .customer-log{
+    color: #9CC87B ; 
+  }
+  
+  .logflex{
+    display: flex;
+    gap: 5px;
+    justify-content: left;
+  }
+  .circleLog1{
+    width:20px;
+    height: 20px;
+    background-color: #FCD183;
+    border-radius: 50%;
+  }
+  .circleLog2{
+    width:20px;
+    height: 20px;
+    background-color: #5FADED;
+    border-radius: 50%;
+  }
+  .circleLog3{
+    width:20px;
+    height: 20px;
+    background-color: #9CC87B;
+    border-radius: 50%;
+  }
+
+
+ ::-webkit-scrollbar {
+    width: 15px; /* Change width of the scrollbar */
+  }
+  
+ ::-webkit-scrollbar-thumb {
+    background-color: #577399; /* Change the color of the scroll thumb */
+    border-radius: 10px; /* Optional: Add rounded corners to the thumb */
+  }
+  
+ ::-webkit-scrollbar-track {
+    background-color: #202329; /* Change the track (background) color */
+    border-radius: 10px; /* Optional: Add rounded corners to the track */
+  }
+  
+ ::-webkit-scrollbar-button {
+    background-color: #44af69; /* Optional: Button colors on top and bottom */
+    border-radius: 60%;
+  }
+  
+  

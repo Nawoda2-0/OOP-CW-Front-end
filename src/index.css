@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e6efff;
+    color: #9e9ea4;
+    font-family: 'Montserrar', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+

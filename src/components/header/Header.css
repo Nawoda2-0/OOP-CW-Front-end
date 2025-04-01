@@ -1,0 +1,85 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding :15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.proSec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(211, 211, 211);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: rgb(48, 48, 48);
+}
+.proSec:hover{
+    background-color: #818181;
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+.header img{
+    width: 40px;
+    border-radius: 50%;
+}
+.header img:hover{
+    width: 40px;
+    border-radius: 50%;
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.title{
+    font-size: 24px;
+    color: #4B49AC;
+}
+
+.stop{
+    margin-right: 40px;
+    display: inline-block; 
+    cursor: pointer; 
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.stop:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+  }
+  
+
+ .stop:active {
+    transform: scale(0.95);
+    filter: brightness(0.9);
+  }
+
+
+.start{
+    display: inline-block; 
+    cursor: pointer; 
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.start:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+  }
+  
+
+ .start:active {
+    transform: scale(0.95);
+    filter: brightness(0.9);
+  }
+
